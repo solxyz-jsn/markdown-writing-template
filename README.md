@@ -20,3 +20,8 @@ VS Code の「Remote Container」拡張機能を有効にします。
 git config --global user.name "<User name>"
 git config --global user.email "<Uour mail address>"
 ```
+
+### 書き始める
+
+MarkdownまたはTextファイルを作成することで、
+校正ツールが効きます。
