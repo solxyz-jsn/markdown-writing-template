@@ -1,0 +1,17 @@
+{
+    "name": "Markdown Writing Template",
+
+    "context": "../",
+    "dockerFile": "Dockerfile",
+
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+
+    "extensions": [
+		"yzhang.markdown-all-in-one",
+		"taichi.vscode-textlint",
+		"james-yu.latex-workshop",
+		"yzane.markdown-pdf"
+	]
+}
