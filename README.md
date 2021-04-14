@@ -18,7 +18,7 @@ VS Code の「Remote Container」拡張機能を有効にします。
 
 ```shell
 git config --global user.name "<User name>"
-git config --global user.email "<Uour mail address>"
+git config --global user.email "<Your mail address>"
 ```
 
 ### 書き始める
