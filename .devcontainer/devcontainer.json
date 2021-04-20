@@ -12,6 +12,7 @@
 		"yzhang.markdown-all-in-one",
 		"taichi.vscode-textlint",
 		"james-yu.latex-workshop",
-		"yzane.markdown-pdf"
+		"yzane.markdown-pdf",
+	        "davidanson.vscode-markdownlint"
 	]
 }
