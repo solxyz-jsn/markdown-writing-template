@@ -1,0 +1,46 @@
+# Deploy to GitHub Pages
+name: Deploy to Pages
+
+permissions:
+  actions: write
+  contents: write
+
+on:
+  push:
+    branches: [ master, main ]
+  # pull_request:
+  #   branches: [ master, main ]
+  #   types: [closed]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    container:
+      image: hikaruright/markdown-converter:latest
+    # Runs the jobs only PullRequest is merged.
+    # if: github.event.pull_request.merged == true
+    steps:
+      - uses: actions/checkout@v3
+      - name: npm install
+        run: npm install
+      - name: convert data
+        run: |
+          rm -rf public
+          rm -rf public.zip
+          zip -r public.zip . -x .git/\* .gitignore prh-rules/\* .devcontainer/\* node_modules/\*
+          unzip public.zip -d public
+          cd public
+          node /app/dist/main.js
+          cd ../
+      - name: Install rsync (for using publish)
+        run: |
+          apt-get update && apt-get install -y rsync
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4.3.3
+#         if: ${{ github.ref == 'refs/heads/main' }}
+        with:
+          branch: gh_pages
+          folder: public

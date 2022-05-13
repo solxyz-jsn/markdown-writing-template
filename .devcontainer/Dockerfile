@@ -1,4 +1,4 @@
-FROM node:15.12.0-buster-slim
+FROM node:16.15-bullseye-slim
 
 LABEL maintainer="hikaruright"
 
