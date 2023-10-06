@@ -1,0 +1,12 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "textlint *.md",
+    "fix": "textlint *.md --fix"
+  },
+  "author": "",
+  "license": "ISC"
+}
