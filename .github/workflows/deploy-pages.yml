@@ -19,7 +19,7 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     container:
-      image: hikaruright/markdown-converter:latest
+      image: ghcr.io/solxyz-jsn/markdown-converter:latest
     # Runs the jobs only PullRequest is merged.
     # if: github.event.pull_request.merged == true
     steps:
