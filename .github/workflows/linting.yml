@@ -11,7 +11,7 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     container:
-      image: hikaruright/markdown-writing-template:0.5
+      image: ghcr.io/solxyz-jsn/markdown-writing-template:0.5
     steps:
       - uses: actions/checkout@v3
 
