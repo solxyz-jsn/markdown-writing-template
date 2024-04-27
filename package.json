@@ -7,6 +7,5 @@
     "lint": "textlint **/*.md",
     "fix": "textlint **/*.md --fix"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "SOLXYZ"
 }
