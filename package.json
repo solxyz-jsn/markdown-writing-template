@@ -8,5 +8,4 @@
     "fix": "textlint **/*.md --fix"
   },
   "author": "",
-  "license": "ISC"
 }
