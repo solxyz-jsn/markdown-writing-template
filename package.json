@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "textlint **/*.md",
-    "fix": "textlint **/*.md --fix"
+    "lint": "textlint \"**/*.md\"",
+    "fix": "textlint \"**/*.md\" --fix"
   },
   "author": "SOLXYZ"
 }
