@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y git
 RUN npm install -g textlint \
     textlint-filter-rule-comments \
     textlint-filter-rule-node-types \
-    textlint-filter-rule-whitelist \
+    textlint-filter-rule-allowlist \
     textlint-plugin-review \
     textlint-rule-max-ten \
     textlint-rule-no-mix-dearu-desumasu \
