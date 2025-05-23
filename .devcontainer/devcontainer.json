@@ -10,9 +10,9 @@
 
     "extensions": [
 		"yzhang.markdown-all-in-one",
-		"taichi.vscode-textlint",
+		"3w36zj6.textlint",
 		"james-yu.latex-workshop",
 		"yzane.markdown-pdf",
-	        "davidanson.vscode-markdownlint"
+	    "davidanson.vscode-markdownlint"
 	]
 }
