@@ -10,9 +10,9 @@
   "author": "SOLXYZ",
   "devDependencies": {
     "textlint": "^14.7.2",
-    "textlint-filter-rule-allowlist": "^4.0.0",
     "textlint-filter-rule-comments": "^1.2.2",
     "textlint-filter-rule-node-types": "^1.1.0",
+    "textlint-filter-rule-whitelist": "^2.0.0",
     "textlint-plugin-review": "^0.4.1",
     "textlint-rule-preset-icsmedia": "github:ics-creative/textlint-rule-preset-icsmedia",
     "textlint-rule-preset-japanese": "^10.0.4",
