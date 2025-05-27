@@ -11,9 +11,7 @@
             "nodeTypes": ["Inline", "Link"]
         }
     },
-    "rules": {
-        "no-mix-dearu-desumasu": true,
-        
+    "rules": {        
         "preset-japanese": {
             "sentence-length": {
                 "max": 150
