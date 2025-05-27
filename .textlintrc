@@ -12,7 +12,7 @@
         }
     },
     "rules": {        
-        "preset-japanese": {
+        "preset-ja-technical-writing": {
             "sentence-length": {
                 "max": 150
             },
