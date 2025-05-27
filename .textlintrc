@@ -18,9 +18,6 @@
             "sentence-length": {
                 "max": 150
             },
-            "max-ten": {
-                "max": 4
-            },
             "no-doubled-joshi": {
                 "min_interval" : 1,
                 "strict": false,
