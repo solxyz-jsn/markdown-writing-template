@@ -1,4 +1,4 @@
-FROM node:20.14-bullseye-slim
+FROM node:22.16-bullseye-slim
 
 LABEL maintainer="solxyz"
 
@@ -9,6 +9,6 @@ RUN apt-get update && apt-get install -y git
 COPY package.json package-lock.json ./
 
 ## Install textlint configures
-RUN npm install
+RUN npm ci
 
 COPY . .
