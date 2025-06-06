@@ -9,10 +9,10 @@
     },
 
     "extensions": [
-		"yzhang.markdown-all-in-one",
-		"3w36zj6.textlint",
-		"james-yu.latex-workshop",
-		"yzane.markdown-pdf",
-	    "davidanson.vscode-markdownlint"
-	]
+        "yzhang.markdown-all-in-one",
+        "3w36zj6.textlint",
+        "james-yu.latex-workshop",
+        "yzane.markdown-pdf",
+        "davidanson.vscode-markdownlint"
+    ]
 }
