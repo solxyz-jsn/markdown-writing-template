@@ -18,12 +18,15 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    container:
-      image: ghcr.io/solxyz-jsn/markdown-converter:latest
     # Runs the jobs only PullRequest is merged.
     # if: github.event.pull_request.merged == true
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20.14'
+          cache: 'npm'
       - name: npm install
         run: npm install
       - name: convert data
@@ -33,7 +36,7 @@ jobs:
           zip -r public.zip . -x .git/\* .gitignore prh-rules/\* .devcontainer/\* node_modules/\*
           unzip public.zip -d public
           cd public
-          node /app/dist/main.js
+          node ./dist/main.js
           cd ../
       - name: Install rsync (for using publish)
         run: |
