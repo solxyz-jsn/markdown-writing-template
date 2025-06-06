@@ -11,15 +11,10 @@
             "nodeTypes": ["Inline", "Link"]
         }
     },
-    "rules": {
-        "no-mix-dearu-desumasu": true,
-        
-        "preset-japanese": {
+    "rules": {        
+        "preset-ja-technical-writing": {
             "sentence-length": {
                 "max": 150
-            },
-            "max-ten": {
-                "max": 4
             },
             "no-doubled-joshi": {
                 "min_interval" : 1,

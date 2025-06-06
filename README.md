@@ -4,11 +4,11 @@
 
 ### リポジトリの作成
 
-このリポジトリをテンプレートとしてリポジトリを作成
+このリポジトリをテンプレートとしてリポジトリを作成する。
 
 ### VS Code で開く
 
-テンプレートから作成したリポジトリをVisual Studio Code（VS Code）で開く
+テンプレートから作成したリポジトリをVisual Studio Code（VS Code）で開く。
 
 ### Devcontainerで開く
 
